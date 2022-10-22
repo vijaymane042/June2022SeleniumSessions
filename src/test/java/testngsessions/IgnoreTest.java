@@ -15,5 +15,10 @@ public class IgnoreTest {
 	public void paymentTest() {
 		System.out.println("Test----payment test method");
 	}
+	
+	@Test(enabled = false)
+	public void addToCartTest1() {
+		System.out.println("Test---add to cart test");
+	}
 
 }
